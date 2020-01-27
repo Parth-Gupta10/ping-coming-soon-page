@@ -1,0 +1,116 @@
+body{
+  text-align: center;
+  color: hsl(0, 0%, 59%);
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+}
+
+h4{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  color: hsl(209, 33%, 12%);
+}
+
+form{
+  width: 100%;
+}
+
+.logo{
+  margin: 40px 5px 20px 5px;
+}
+
+span{
+  color: hsl(209, 33%, 12%);
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.col-lg-7{
+  text-align: right;
+  margin-top: 15px;
+  float: left;
+}
+
+.col-lg-5{
+  text-align: left;
+  margin-top: 15px;
+  float: left;
+}
+
+.email{
+  width: 60%;
+  min-width: 250px;
+  margin: 5px;
+  color: hsl(0, 0%, 59%);
+  padding: 10px 25px;
+  border-radius: 24px;
+  border-width: 0;
+  box-shadow: 1px 1px 10px 1px hsl(223, 100%, 88%);
+}
+
+.notify{
+  width: 40%;
+  min-width: 150px;
+  border-radius: 24px;
+  box-shadow: 3px 3px 10px 1px #bfbfbf
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+}
+
+.validation{
+  color: hsl(354, 100%, 66%);
+  margin-right: 17%;
+  visibility: hidden;
+}
+
+.error{
+  border-width: 1px;
+  border-color: hsl(354, 100%, 66%);
+  color: hsl(354, 100%, 66%);
+}
+
+.dashboard{
+  width: 55%;
+  height: 60%;
+  margin: 20px 50px 50px 50px;
+}
+
+i{
+  color: hsl(223, 87%, 63%);
+  font-size: 20px;
+  padding: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 992px) {
+  .col-lg-7{
+    text-align: center;
+  }
+
+  .col-lg-5{
+    text-align: center;
+  }
+
+  .validation{
+    margin: 0;
+  }
+
+  .dashboard{
+    width: 80%;
+    height: 90%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .validation{
+    margin-right: 9%;
+  }
+}
